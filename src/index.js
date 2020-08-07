@@ -25,6 +25,9 @@ render( {
     return(
         <div>
             <div className="status">{status}</div>
+            <div className="board-row">
+                {this.renderSquare(0)}
+            </div>
         </div>
     )
 }
