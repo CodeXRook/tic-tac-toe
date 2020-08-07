@@ -35,7 +35,12 @@ render( {
                 {this.renderSquare(4)}
                 {this.renderSquare(5)}
             </div>
-            <div className
+            <div className="board-row">
+                {this.renderSquare(6)}
+                {this.renderSquare(7)}
+                {this.renderSquare(8)}
+            </div>
         </div>
-    )
+    );
+  }
 }
