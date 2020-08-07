@@ -16,13 +16,13 @@ class Square extends React.Component {
 class Board extends React.Component {
     renderSquare(i) {
         return <Square />;
-    }
+    
 }
 
-render( {
-    const status = 'Next player: ';
+render() {
+    const status = 'Next player: X';
 
-    return(
+    return (
         <div>
             <div className="status">{status}</div>
             <div className="board-row">
