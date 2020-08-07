@@ -30,6 +30,12 @@ render( {
                 {this.renderSquare(1)}
                 {this.renderSquare(2)}
             </div>
+            <div className="broad-row">
+                {this.renderSquare(3)}
+                {this.renderSquare(4)}
+                {this.renderSquare(5)}
+            </div>
+            <div className
         </div>
     )
 }
