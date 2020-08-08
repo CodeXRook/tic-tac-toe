@@ -40,6 +40,10 @@ ol, ul {
     background: #ddd;
 }
 
+.game {
+    display: flex;
+}
+
 .game-info {
     margin-left: 20px;
 }
